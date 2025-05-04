@@ -1,23 +1,38 @@
-# Sparks Foundation Internship Project : Basic Banking System #GRIPFEBRUARY22
- 
-A Web Application used to transfer money between multiple users.
+# 💰 Basic Banking System
 
-Stack used - 
+A web application built during The Sparks Foundation Internship (#GRIPFEBRUARY22) to simulate basic banking operations like money transfer, transaction history, and balance inquiry.
 
-Front-end : HTML, CSS, Bootstrap & Javascript | Back-end : PHP Database : MySQL
+## 🌐 Overview
+This project allows users to:
+- View a list of all customers
+- Transfer money between accounts
+- Track transaction history
+- Contact the bank via a form
+- Check current balance by entering an account number
 
-Database contains three Tables- Customers, Transactios and Contact Us.
+## 🔧 Technologies Used
+- **Frontend**: HTML, CSS, Bootstrap, JavaScript  
+- **Backend**: PHP  
+- **Database**: MySQL  
+- **Editor**: Visual Studio Code
 
-Customer can also check balance by enter account number.
+## 🗃️ Database Structure
+- **Customers Table**: Name, Email, Account Number, Current Balance  
+- **Transactions Table**: Sender, Receiver, Amount, Date/Time  
+- **ContactUs Table**: Name, Email, Message
 
-All Customer table have basic fields such as Name, Email, Account Number and Current balance. 
+## 🔄 Application Flow
+1. Home Page  
+2. View All Customers  
+3. Select a Customer → Send Money  
+4. Enter Receiver’s Account No. and Amount → Transfer  
+5. View Transaction History
 
-Transaction table records all transfers happened along with their time. 
+### Contact Page Flow:
+1. Open Contact Us  
+2. Enter Name, Email, and Message → Submit
 
-Flow of the Website:
+---
 
-Home Page > View All Customers > Send Money > Write Amount and Reciever Account Number > Transfer > Transactions.
-
-For Contact Us:
-
-Contact Us > Write Name, Email and Message > Submit
+📁 **Internship**: The Sparks Foundation – Web Development  
+📅 **Batch**: GRIP February 2022
